@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<link rel="stylesheet" href="test.css" type="text/css" />-->
+<form action="/user/loginUser" method="post">
+    请输入用户名--：<input type="text" name="userName" id="userName"/><br>
+    请你输入密码--：<input type="password" name="passWord" id="passWord"/><br>
+    <input type="submit" value="Login"/>
+    <a href="/user/toRegister">--注册--</a>
+</form>
+
+</body>
+</html>
